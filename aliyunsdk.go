@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-  client, err := ecs.NewClientWithAccessKey("cn-hangzhou", "LTAIK61t4t7qwRuv", "YA6chzF0tiwPAxtx47MkOBlckJtxEz")
+  client, err := ecs.NewClientWithAccessKey("cn-hangzhou", "x", "z")
 
   request := ecs.CreateDescribeAccessPointsRequest()
 
